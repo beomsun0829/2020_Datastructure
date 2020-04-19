@@ -10,6 +10,7 @@
     "label": "save and compile for C++",
     "command": "g++",
     "args": [
+    "-g",
     "${file}",
     "-o",
     "${fileDirname}/${fileBasenameNoExtension}"
