@@ -42,7 +42,7 @@ int main()
 	int key;
 	listNode* headnode=NULL;
 	initialize(&headnode);
-	prinf("---2019038058 Hongbeomsun---\n");
+	printf("---2019038058 Hongbeomsun---\n");
 
 	do{
 		printf("----------------------------------------------------------------\n");
