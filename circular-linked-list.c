@@ -42,7 +42,7 @@ int main()
 	int key;
 	listNode* headnode=NULL;
 	initialize(&headnode);
-	prinf("---2019038058 Hongbeomsun---\n");
+	printf("---2019038058 Hongbeomsun---\n");
 
 	do{
 		printf("----------------------------------------------------------------\n");
@@ -243,9 +243,11 @@ int deleteFirst(listNode* h) {
 }
 
 
-/**
- * 리스트의 링크를 역순으로 재 배치
- */
+
+
+
+
+
 int invertList(listNode* h) {
 	if(h->rlink == h || h->rlink->rlink == h){	//리스트가 비어있거나 하나일때
 		return 1;
