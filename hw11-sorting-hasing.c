@@ -48,6 +48,7 @@ int main()
 
 	srand(time(NULL));
 	initialize(&array);
+	printf("---2019038058 hongbeomsun---\n");
 
 	do {
 		printf("----------------------------------------------------------------\n");
